@@ -46,6 +46,7 @@ public class LoginPage {
 	private By errorMessage = By.cssSelector("div.alert.alert-danger.alert-dismisaable");
 
 	// (4).Page Actions Note:Assertions never return under this Page Action Methods
+
 	public String getLoginPageTitle() {
 
 		return eleUtil.doGetTitle(Constants.LOGIN_PAGE_TITLE, Constants.DEFAULT_TIME_OUT);
@@ -86,7 +87,7 @@ public class LoginPage {
 		eleUtil.doSendkeys(password, pwd);
 		eleUtil.doClick(login);
 		String errorMsg = eleUtil.doGetText(errorMessage);
-		System.out.println(errorMsg);
+		System.out.println("Error message is..." + errorMsg);
 		if (errorMsg.contains(Constants.LOGIN_ERROR_MESSG)) {
 			System.out.println("Login is Not Successfull");
 			return false;
