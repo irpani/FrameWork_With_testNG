@@ -83,6 +83,7 @@ public class AccountPageTest extends BaseTest {
 	public void searchTest(String productName) {
 		accountsPage.doSerach("MaBookpro"); // Productname this is Constant or testdata?
 
-	} // A: This is testData we will discusss it later
+	} // A: This is testData we will discusss it later ,we will maintain individual
+		// sheets
 
 }
