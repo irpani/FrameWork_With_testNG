@@ -139,6 +139,7 @@ public class DriverFactory {
 					break;
 				case "uat":
 					ip = new FileInputStream("src/test/resources/config/uat.config.properties");
+
 					break;
 
 				default:

@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 Q:What we have to do ?
 A:In Java & Selenium we don't hve libraries ..for it
 In this case we have add some external library  Apache Poi
-In pom.xmlI can add dependecy for Apache poi
+In pom.xml I can add dependecy for Apache poi
 
 Now U have to create utility also to read  data from excel sheet
 Utility Should be created under util Section

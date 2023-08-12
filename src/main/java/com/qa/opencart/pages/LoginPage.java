@@ -5,20 +5,38 @@ import org.openqa.selenium.WebDriver;
 
 import com.qa.opencart.utils.Constants;
 import com.qa.opencart.utils.Element_Util;
-//_____________Case (1):______________
-//When Ever you are Creating Any page class Either login page ,Reg Page,Checkout page ,Add To Cart Page
 
-//(1).First thing is Initialize it's own Private webDriver ...
-//(2).How do u Initiaize this Driver? with the help Of Constructor
-//(3).Private By Locator's
-//(4).Page Actions
-//Conclusion -- See the Page Structure Did we write any Assertion here  ? A: No
-//Assertion is the Property Of testNg Right So never Right  Assertions in Page Acttion Methods
+/*****
+ * In POM For Every page we Should maintain these 4 
+ * (1).Constructor
+ * (2).webElements
+ * (3).Validations
+ * (4).Navigation
+ */
 
-//____________Case(2):  Element Util_____________
-//(1).In Login Page How Can I use here in  Element Util ?? doclick(),doSendkeys(),doDisplay() ..
-//methods in this page So how will u use those methods Of element util ?
-//(2).WE Have to create the Object of the Element Util then give driver to the Constructor
+/****
+ * In page WebElements we can maintaied in 3 formats (1).Through methods
+ * (2).Using By Locator's (3).Using @FindBy Annotation Using PageFactory
+ */
+
+// _____________Case (1):______________
+// When Ever you are Creating Any page class Either login page ,Reg
+// Page,Checkout page ,Add To Cart Page
+
+// (1).First thing is Initialize it's own Private webDriver ...
+// (2).How do u Initiaize this Driver? with the help Of Constructor
+// (3).Private By Locator's
+// (4).Page Actions
+// Conclusion -- See the Page Structure Did we write any Assertion here ? A: No
+// Assertion is the Property Of testNg Right So never Right Assertions in Page
+// Action Methods
+
+// ____________Case(2): Element Util_____________
+// (1).In Login Page How Can I use here in Element Util ??
+// doclick(),doSendkeys(),doDisplay() ..
+// methods in this page So how will u use those methods Of element util ?
+// (2).WE Have to create the Object of the Element Util then give driver to the
+// Constructor
 
 public class LoginPage {
 
