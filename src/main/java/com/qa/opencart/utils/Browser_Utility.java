@@ -21,7 +21,7 @@ public class Browser_Utility {
 	 * @param browser
 	 * @return this will return the driver
 	 */
-
+	// This is for Cross Browser Logic , We can launch the Browser First
 	public WebDriver launchBrowser(String browser) {
 
 		if (browser.equalsIgnoreCase("Chrome")) {
