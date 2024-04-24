@@ -11,7 +11,7 @@ import com.qa.opencart.pages.AccountsPage;
 import com.qa.opencart.utils.Constants;
 
 public class AccountPageTest extends BaseTest {
-
+	// Account Page Test Content
 	// To reach the Accounts Page What is the Pre_Condition?
 	// A:Precondiiton for Accout page is
 	// Launch the Browser ente the Url name & Password then User Should Logged in
