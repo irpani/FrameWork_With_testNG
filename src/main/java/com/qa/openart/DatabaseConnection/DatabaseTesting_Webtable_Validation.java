@@ -35,7 +35,8 @@ public class DatabaseTesting_Webtable_Validation {
 	protected static int columnNumber;
 	protected static int rowNumber;
 	protected static SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
-
+    
+	  //This is the Initial Step
 	@BeforeClass
 	public static void setUp() {
 		System.out.println("********************************************************");
